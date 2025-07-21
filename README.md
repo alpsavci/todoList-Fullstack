@@ -14,10 +14,6 @@ Bu proje, HTML, JavaScript, TailwindCSS, Node.js, Express ve MongoDB kullanılar
 
 ![Uygulama Görseli](./todoList.png)
 
-> Yukarıdaki görseli kendi ekran görüntünle değiştir:
-> - Ekran görüntüsü al → adını `screenshot.png` yap
-> - Bu görseli `C:\Users\Alp\todoList` klasörüne koy
-
 
 ## 🧰 Kullanılan Teknolojiler
 
