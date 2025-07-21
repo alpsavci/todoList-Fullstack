@@ -2,7 +2,7 @@ const taskInput = document.getElementById("taskInput");
 const addTaskBtn = document.getElementById("addTaskBtn");
 const taskList = document.getElementById("taskList");
 
-const API_URL = "http://localhost:5000/tasks";
+const API_URL = "https://todolist-api-wqf8.onrender.com/tasks";
 
 // Model elemanları
 const deleteConfirmModel = document.getElementById("deleteConfirmModel");
