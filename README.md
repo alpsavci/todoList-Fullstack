@@ -57,6 +57,6 @@ DELETE	    /tasks/:id	    Görevi siler
 PATCH	    /tasks/:id	    Görevi tamamlandı işaretler 
 
 
-👨‍💻 Geliştirici 
+👨‍💻 Geliştirici  
 Alp SAVCI  
 [GitHub](https://github.com/alpsavci)
