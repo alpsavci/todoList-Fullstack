@@ -51,12 +51,12 @@ index.html dosyasını Live Server ile aç.
 
 📂 API Rotaları
 Yöntem	    Rota	        Açıklama
-GET	        /tasks	        Tüm görevleri getirir
-POST	    /tasks	        Yeni görev ekler
-DELETE	    /tasks/:id	    Görevi siler
-PATCH	    /tasks/:id	    Görevi tamamlandı işaretler
+GET	        /tasks	        Tüm görevleri getirir 
+POST	    /tasks	        Yeni görev ekler 
+DELETE	    /tasks/:id	    Görevi siler 
+PATCH	    /tasks/:id	    Görevi tamamlandı işaretler 
 
 
 👨‍💻 Geliştirici
-Alp SAVCI
+Alp SAVCI  
 [GitHub](https://github.com/alpsavci)
