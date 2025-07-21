@@ -49,12 +49,14 @@ cd ../frontend
 
 index.html dosyasını Live Server ile aç.
 
-📂 API Rotaları
-Yöntem	    Rota	        Açıklama
-GET	        /tasks	        Tüm görevleri getirir 
-POST	    /tasks	        Yeni görev ekler 
-DELETE	    /tasks/:id	    Görevi siler 
-PATCH	    /tasks/:id	    Görevi tamamlandı işaretler 
+📂 API Rotaları  
+
+Yöntem   | Rota         | Açıklama  
+-------- | ------------ | ------------------------------------  
+GET      | /tasks       | Tüm görevleri getirir  
+POST     | /tasks       | Yeni görev ekler  
+DELETE   | /tasks/:id   | Belirtilen görevi siler  
+PATCH    | /tasks/:id   | Görevi tamamlandı olarak işaretler
 
 
 👨‍💻 Geliştirici  
