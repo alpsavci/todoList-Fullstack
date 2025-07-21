@@ -33,7 +33,7 @@ function renderTask(task) {
     span.classList.add("line-through", "text-gray-400");
   }
 
-  // Tamamlama
+  // Görevi tamamlandı yapma
   const completeBtn = document.createElement("button");
   completeBtn.textContent = "✔️";
   completeBtn.className =
@@ -47,7 +47,7 @@ function renderTask(task) {
     fetchTasks(); // Güncelle
   });
 
-  // Silme
+  // Görev silme
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "🗑️";
   deleteBtn.className =
@@ -73,7 +73,7 @@ modelYes.addEventListener("click", async () => {
   deleteConfirmModel.classList.add("hidden");
 });
 
-// Modal "Hayır" butonu
+// Model "Hayır" butonu
 modelNo.addEventListener("click", () => {
   taskIdToDelete = null;
   deleteConfirmModel.classList.add("hidden");
@@ -91,7 +91,7 @@ addTaskBtn.addEventListener("click", async () => {
   });
 
   taskInput.value = "";
-  fetchTasks(); // Güncelle
+  fetchTasks(); // Görevleri güncelleme
 });
 
 // Enter tuşu ile görev ekleme
